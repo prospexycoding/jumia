@@ -1,0 +1,377 @@
+.card-container{
+    width: 93%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+
+.card-box{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 30px;
+    padding: 10px;
+    
+}
+
+.card-box::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+
+
+.card{
+    width: 170px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.percent{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 100;
+    font-size: 11px;
+    font-weight: 100;
+    background-color: orange;
+    color: white;
+    border-radius: 2px;
+    padding:  3px;
+
+}
+
+.card:hover{
+    box-shadow: 0px 8px 16px rgb(0,0,0,0.3);
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition: all .3s ease;
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+}
+
+.card h3{
+    font-size: 14px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: red;
+}
+
+::-webkit-scrollbar-thumb{
+background: linear-gradient(rgb(0, 102, 255),rgb(235, 232, 232));
+} 
+
+
+/* second-card-container */
+
+.second-card-container{
+    width: 93%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    gap: 10px;
+}
+
+
+.second-card-box{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 30px;
+    padding: 10px;
+    background-color: white;
+}
+.second-card-box::-webkit-scrollbar{
+    height: 0px;
+}
+
+.top{
+    width: 100%;
+    color: black;
+    font-weight: 400;
+    font-size: 23px;
+    left: 5px;
+    top: 5px;
+    padding-left: 10px;
+}
+
+.second-card{
+    width: 170px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.second-card:hover{
+    box-shadow: 0px 8px 16px rgb(0,0,0,0.3);
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
+.percent2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 100;
+    font-size: 11px;
+    font-weight: 100;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 5px;
+
+}
+
+.second-card img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.second-card h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.second-card h2{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.second-card h1{
+    font-weight: 100;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+
+
+@media(max-width:450px){
+    .card-container{
+        width: 90%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px 0px;
+    }
+    
+    .card-box{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 30px;
+        padding: 10px;
+        
+    }
+    
+    .card-box::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    
+    
+    
+    .card{
+        width: 170px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .percent{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 10px;
+        font-weight: 200;
+        background-color: orange;
+        color: white;
+        border-radius: 2px;
+        padding:  3px;
+    
+    }
+    
+    .card:hover{
+        box-shadow: 0px 8px 16px rgb(0,0,0,0.3);
+        border-radius: 10px;
+        transform: scale(1.02);
+        transition: all .3s ease;
+    }
+    
+    .card img{
+        width: 120px;
+        height: 60px;
+        object-fit: contain;
+    }
+    
+    .card h3{
+        font-size: 13px;
+        font-weight: 400;
+        color: black;
+        text-align: center;
+    }
+    
+    
+    ::-webkit-scrollbar{
+        width: 2px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        background: red;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(0, 102, 255),rgb(235, 232, 232));
+    } 
+    
+    
+    /* second-card-container */
+    
+    .second-card-container{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 10px;
+        gap: 10px;
+    }
+    
+    
+    .second-card-box{
+        width: 98%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 50px;
+        padding: 10px;
+        background-color: white;
+    }
+    .second-card-box::-webkit-scrollbar{
+        height: 0px;
+    }
+    
+    .top{
+        width: 100%;
+        color: black;
+        font-weight: 400;
+        font-size: 23px;
+        left: 5px;
+        top: 5px;
+        padding-left: 10px;
+    }
+    
+    .second-card{
+        width: 170px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .second-card:hover{
+        box-shadow: 0px 8px 16px rgb(0,0,0,0.3);
+        border-radius: 10px;
+        transform: scale(1.02);
+        transition: all 0.2s ease;
+    }
+    
+    .percent2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-weight: 100;
+        font-size: 10px;
+        font-weight: 100;
+        background-color: orange;
+        color: white;
+        border-radius: 3px;
+        padding: 3px 5px;
+    
+    }
+    
+    .second-card img{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    
+    .second-card h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .second-card h2{
+        font-weight: 500;
+        font-size: 16px;
+    
+    }
+    
+    .second-card h1{
+        font-weight: 100;
+        font-size: 15px;
+        text-decoration: line-through;
+    }
+    
+    
+}
